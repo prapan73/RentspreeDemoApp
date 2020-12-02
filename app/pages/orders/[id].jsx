@@ -62,12 +62,14 @@ const Orders = ({ cart }) => {
                 <h2 className="mt-4">Addess</h2>
                 <input
                   type="text"
+                  id="address"
                   className="border border-gray-500 w-full p-3 rounded"
                   onChange={(e) => setState(e.target.value)}
                   value={state}
                 />
                 <div className="mt-5 flex justify-between">
                   <button
+                    id="resetCart"
                     onClick={() => handleResetCart(cart._id)}
                     className="bg-gray-500 py-2 px-3 rounded text-white shadow"
                   >
@@ -75,6 +77,7 @@ const Orders = ({ cart }) => {
                   </button>
                   <button
                     onClick={() => handleCheckout(cart._id)}
+                    id="checkout"
                     className="bg-blue-500 py-2 px-3 rounded text-white shadow"
                   >
                     Checkout

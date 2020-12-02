@@ -56,7 +56,7 @@ const Card = ({ id, name, price, quantity, imagesUrl }) => {
       </div>
       <button
         type="button"
-        className="block shadow-md rounded bg-blue-400 text-white px-4 py-2 w-full mt-3 hover:bg-blue-500"
+        className="add-item block shadow-md rounded bg-blue-400 text-white px-4 py-2 w-full mt-3 hover:bg-blue-500"
         onClick={() => handleAddToCart(id)}
       >
         <span className="flex align-middle justify-center">

@@ -50,6 +50,7 @@ const CartList = () => {
       </div>
       <div className="mt-5">
         <button
+          id="continueOrder"
           type="button"
           className="text-lg text-center w-full bg-yellow-400 px-2 py-3 rounded-lg shadow-md"
           onClick={handleContinueOrder}

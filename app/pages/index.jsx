@@ -33,7 +33,7 @@ const Home = (props) => {
                   <span className="flex items-center">
                     <span className="material-icons">shopping_cart</span> Carts
                   </span>
-                  <CartList></CartList>
+                  <CartList />
                 </h2>
               </div>
             </div>
