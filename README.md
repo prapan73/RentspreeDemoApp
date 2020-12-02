@@ -1,12 +1,17 @@
 # RentspreeDemoApp
 
 ***Frontend***
-- cd path/app/
+- cd app
 - yarn
 - yarn dev
 
 
 ***Server***
-- cd path/server
+- cd server
 - npm install
 - node index.js
+
+***Test***
+- cd test
+- yarn
+- yarn cypress open
